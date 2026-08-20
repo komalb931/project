@@ -1,0 +1,44 @@
+
+/* Navbar links */
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: brown;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+/* Login button */
+nav button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+nav button a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+

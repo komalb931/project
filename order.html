@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Order.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Order Details</title>
+</head>
+
+<body>
+
+<center>
+<nav>
+    <ul>
+        <li><a href="Task.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+
+   
+        <button> <a href="login.html">Login</a></button>
+    </a>
+</nav>
+
+
+    <h1>Order Details</h1>
+
+    <hr>
+
+    <form action="#" method="">
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th colspan="2">
+                    Customer Information
+                </th>
+            </tr>
+
+
+            <!-- Customer Name -->
+
+            <tr>
+                <td>Customer Name</td>
+
+                <td>
+                    <input 
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name">
+                </td>
+            </tr>
+
+
+            <!-- Mobile Number -->
+
+            <tr>
+                <td>Mobile No</td>
+
+                <td>
+                    <input 
+                        type="tel"
+                        name="mobile"
+                        placeholder="Enter mobile number">
+                </td>
+            </tr>
+
+
+            <!-- Email -->
+
+            <tr>
+                <td>Email</td>
+
+                <td>
+                    <input 
+                        type="email"
+                        name="email"
+                        placeholder="Enter email">
+                </td>
+            </tr>
+
+
+            <!-- Address -->
+
+            <tr>
+                <td>Address</td>
+
+                <td>
+                    <textarea
+                        name="address"
+                        rows="4"
+                        cols="30"
+                        placeholder="Enter address"></textarea>
+                </td>
+            </tr>
+
+
+            <!-- City -->
+
+            <tr>
+                <td>City</td>
+
+                <td>
+
+                    <select name="city">
+
+                        <option value="">
+                            Select City
+                        </option>
+
+                        <option value="pune">
+                            Pune
+                        </option>
+
+                        <option value="mumbai">
+                            Mumbai
+                        </option>
+
+                        <option value="baramati">
+                            Baramati
+                        </option>
+
+                        <option value="nashik">
+                            Nashik
+                        </option>
+
+                    </select>
+
+                </td>
+            </tr>
+
+
+            <!-- Order Type -->
+
+            <tr>
+                <td>Order Type</td>
+
+                <td>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="order"
+                            value="dinein">
+
+                        Dine In
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="order"
+                            value="takeaway">
+
+                        Take Away
+                    </label>
+
+                </td>
+            </tr>
+
+
+            <!-- Food -->
+
+            <tr>
+                <td>Select Food</td>
+
+                <td>
+
+                    <select name="food">
+
+                        <option value="">
+                            Select Food
+                        </option>
+
+                        <option value="manchurian">
+                            Veg Manchurian
+                        </option>
+
+                        <option value="paneer-tikka">
+                            Paneer Tikka
+                        </option>
+
+                        <option value="french-fries">
+                            French Fries
+                        </option>
+
+                        <option value="paneer-butter">
+                            Paneer Butter Masala
+                        </option>
+
+                        <option value="biryani">
+                            Veg Biryani
+                        </option>
+
+                        <option value="dal-tadka">
+                            Dal Tadka
+                        </option>
+
+                        <option value="butter-naan">
+                            Butter Naan
+                        </option>
+
+                        <option value="cold-coffee">
+                            Cold Coffee
+                        </option>
+
+                        <option value="gulab-jamun">
+                            Gulab Jamun
+                        </option>
+
+                        <option value="ice-cream">
+                            Ice Cream
+                        </option>
+
+                    </select>
+
+                </td>
+            </tr>
+
+
+            <!-- Quantity -->
+
+            <tr>
+                <td>Quantity</td>
+
+                <td>
+
+                    <input
+                        type="number"
+                        name="quantity"
+                        min="1"
+                        placeholder="Enter quantity">
+
+                </td>
+            </tr>
+
+
+            <!-- Extra Items -->
+
+            <tr>
+                <td>Extra Items</td>
+
+                <td>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="extra"
+                            value="cheese">
+
+                        Cheese
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="extra"
+                            value="salad">
+
+                        Salad
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="extra"
+                            value="papad">
+
+                        Papad
+                    </label>
+
+                </td>
+            </tr>
+
+
+            <!-- Payment -->
+
+            <tr>
+                <td>Payment Method</td>
+
+                <td>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="cash">
+
+                        Cash
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="upi">
+
+                        UPI
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="card">
+
+                        Card
+                    </label>
+
+                </td>
+            </tr>
+
+
+            <!-- Special Instructions -->
+
+            <tr>
+                <td>Special Instructions</td>
+
+                <td>
+
+                    <textarea
+                        name="instructions"
+                        rows="4"
+                        cols="30"
+                        placeholder="Any special instructions?"></textarea>
+
+                </td>
+            </tr>
+
+
+            <!-- Buttons -->
+
+            <tr>
+
+                <td colspan="2">
+
+                    <center>
+
+                        <button type="submit">
+                            Place Order
+                        </button>
+
+                        <button type="reset">
+                            Reset
+                        </button>
+
+                    </center>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</center>
+
+</body>
+
+</html>

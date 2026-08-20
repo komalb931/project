@@ -1,0 +1,99 @@
+/* Whole Page */
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+
+/* Main Heading */
+h1 {
+    color: brown;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+/* Horizontal Line */
+hr {
+    width: 70%;
+    border: none;
+    height: 2px;
+    background-color: brown;
+    margin-bottom: 30px;
+}
+
+
+/* Get in Touch */
+h3 {
+    color: #555;
+    font-size: 22px;
+}
+
+
+/* Contact Information */
+p {
+    font-size: 17px;
+    margin: 12px;
+}
+
+
+/* Labels */
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+/* Message box */
+textarea {
+    height: 100px;
+    resize: vertical;
+    vertical-align: middle;
+}
+
+
+/* Input focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: brown;
+}
+
+
+/* Send Message Button */
+input[type="submit"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Button Hover */
+input[type="submit"]:hover {
+    background-color: #6b1f1f;
+    transform: scale(1.05);
+}

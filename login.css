@@ -1,0 +1,125 @@
+/* Whole Page */
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+
+/* Main Heading */
+h1 {
+    color: brown;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+/* Sub Heading */
+h3 {
+    color: #666;
+    font-size: 20px;
+}
+
+
+/* Horizontal Line */
+hr {
+    width: 50%;
+    height: 2px;
+    border: none;
+    background-color: brown;
+    margin: 25px auto;
+}
+
+
+/* Login Table */
+table {
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Table Cells */
+td {
+    padding: 12px;
+}
+
+
+/* Left Side Labels */
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+    color: #5a2d0c;
+}
+
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+/* Input Focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 2px solid brown;
+}
+
+
+/* Buttons */
+button {
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Button Hover */
+button:hover {
+    background-color: #6b1f1f;
+    transform: scale(1.05);
+}
+
+
+/* Cancel Button */
+button:nth-of-type(2) {
+    background-color: #777;
+}
+
+
+/* Cancel Hover */
+button:nth-of-type(2):hover {
+    background-color: #444;
+}
+
+
+/* Registration Link */
+a {
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Link Hover */
+a:hover {
+    text-decoration: underline;
+    color: #6b1f1f;
+}
